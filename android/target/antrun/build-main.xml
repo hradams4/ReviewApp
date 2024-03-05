@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <delete file="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\android\target/ReviewApp-android-1.0-SNAPSHOT.jar" />
+    <mkdir dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\android/src/main/resources" />
+    <mkdir dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\android/src/main/java" />
+    <jar destfile="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\android\target/ReviewApp-android-1.0-SNAPSHOT.jar" compress="true">
+      <fileset dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\android/src/main/resources" />
+      <fileset dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\android/src/main/java" />
+    </jar>
+  </target>
+</project>

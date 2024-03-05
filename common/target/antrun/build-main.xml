@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <mkdir dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common/src/main/css" />
+    <touch file="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common/src/main/css/index.txt" />
+    <mkdir dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common\target/cn1css/META-INF/codenameone/com.cnone/ReviewApp-common/css" />
+    <copy todir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common\target/cn1css/META-INF/codenameone/com.cnone/ReviewApp-common/css">
+      <fileset dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common/src/main/css" />
+    </copy>
+    <zip destfile="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common\target/ReviewApp-common-1.0-SNAPSHOT-cn1css.zip" compress="true">
+      <fileset dir="C:\Users\adams\Desktop\Codename One\ReviewApp\ReviewApp\ReviewApp\common\target/cn1css" />
+    </zip>
+  </target>
+</project>

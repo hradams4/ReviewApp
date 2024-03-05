@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android/ReviewApp-android.iml" filepath="$PROJECT_DIR$/android/ReviewApp-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/ReviewApp-common.iml" filepath="$PROJECT_DIR$/common/ReviewApp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ios/ReviewApp-ios.iml" filepath="$PROJECT_DIR$/ios/ReviewApp-ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascript/ReviewApp-javascript.iml" filepath="$PROJECT_DIR$/javascript/ReviewApp-javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/ReviewApp-javase.iml" filepath="$PROJECT_DIR$/javase/ReviewApp-javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/ReviewApp-lib.iml" filepath="$PROJECT_DIR$/lib/ReviewApp-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win/ReviewApp-win.iml" filepath="$PROJECT_DIR$/win/ReviewApp-win.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/codenameone-maven-manual.iml" filepath="$PROJECT_DIR$/.idea/codenameone-maven-manual.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ReviewApp-win" />
+        <module name="ReviewApp-javase" />
+        <module name="ReviewApp-android" />
+        <module name="ReviewApp-javascript" />
+        <module name="ReviewApp-ios" />
+        <module name="ReviewApp-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="codenameone-maven-manual" target="1.8" />
+      <module name="ReviewApp" target="11" />
+      <module name="ReviewApp-android" target="1.8" />
+      <module name="ReviewApp-common" target="8" />
+      <module name="ReviewApp-ios" target="1.8" />
+      <module name="ReviewApp-javascript" target="1.8" />
+      <module name="ReviewApp-javase" target="1.8" />
+      <module name="ReviewApp-lib" target="1.8" />
+      <module name="ReviewApp-win" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
